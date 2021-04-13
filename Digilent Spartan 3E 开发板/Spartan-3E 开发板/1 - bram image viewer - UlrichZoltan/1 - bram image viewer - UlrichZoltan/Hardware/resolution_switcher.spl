@@ -1,0 +1,10 @@
+[Inputs]
+clk
+rst
+ctrl
+ready
+=ascii[6:0]=
+[Outputs]
+switch
+resolution
+[BiDir]

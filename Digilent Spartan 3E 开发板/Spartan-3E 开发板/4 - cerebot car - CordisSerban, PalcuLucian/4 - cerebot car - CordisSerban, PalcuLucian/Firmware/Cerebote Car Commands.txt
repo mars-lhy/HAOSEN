@@ -1,0 +1,57 @@
+User Manual
+
+
+
+hexa cmd     dec cmd     Operation
+
+For left motor
+
+d0 	     208         stop motor
+
+
+d4 	     212         forward one step full step mode
+
+DD 	     221         decrease delay
+DA           218         increase delay
+
+DF           223         start spining forward  full step
+DB           219         start spining backward full step
+
+For right motor
+
+
+E0 	     224         stop motor
+
+E4 	     228         forward one step full step mode
+
+ED 	     237         decrease delay
+EA           234         increase delay
+
+EF           239         start spining forward  fullstep
+EB           235         start spining backward fullstep
+
+For both
+
+
+F0 	     240        stop both motors
+F1	     241	go forward  turnnig  left
+F2 	     242	go forward  turnnig  right
+F3           243        go backward turnning left
+F4           244        go backward turnning right
+F5           245        go forward  one step 
+F6           246        go backward one step
+F7	     247	set step mode fullstep and direction forward
+F8	     248	set step mode fullstep and direction backward
+FB           251        fullstep backward 1 cm
+FF           255        fullstep forward  1 cm
+CA           205        increase speed
+CD           202        decrease speed
+
+
+leduri:
+
+
+c0           192	turn off leds
+C3           195        turn on leds 3,4
+
+

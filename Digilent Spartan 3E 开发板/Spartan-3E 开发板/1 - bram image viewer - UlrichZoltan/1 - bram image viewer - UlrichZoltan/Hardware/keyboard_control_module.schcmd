@@ -1,0 +1,12 @@
+select figure at 1653 355 10 -branches -sn=1
+select figure at 1644 355 10 -branches -sn=1
+select figure at 1637 355 10 -branches -sn=1
+select figure at 1637 355 10 -branches -extend -extend -sn=1
+select figure at 1637 374 10 -branches -sn=1
+select figure at 1637 374 10 -branches -extend -extend -sn=1
+select figure at 1818 510 10 -branches -sn=1
+select figure at 1818 510 10 -branches -extend -extend -sn=1
+select figure at 1600 497 10 -branches -sn=1
+select figure at 1600 497 10 -branches -extend -extend -sn=1
+select figure at 1844 570 10 -branches -sn=1
+select figure at 1844 570 10 -branches -extend -extend -sn=1

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><FCIV>
+<FILE_ENTRY><name>autorun.exe</name><MD5>izKM2FMbbu79D3oik/7R8Q==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>autorun.inf</name><MD5>Ly69sHiUICXEkeChtv3Kmw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>nidist.id</name><MD5>zwFKbLmbWz7Yg3WXPYqLrA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>patents.txt</name><MD5>oeSoCEcynaUS67KPLLU9LQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>setup.exe</name><MD5>rVGcl5x9mmbtbKPll/aRPw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>setup.ini</name><MD5>9qGDa2udpcDbBCgwJDRI4A==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\data0009.dll</name><MD5>p0qXF0PMQNPqPqIVCF/YsQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\merged.cab</name><MD5>lmvAIPPm89Qm3uIgeIBjvw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\MIFSystemUtility.dll</name><MD5>M9qbwpw+CgmEzEFnKInVdQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\niPie.exe</name><MD5>yK8lMPKX2l7o1GYN558e9A==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\nistdtrans0007.mst</name><MD5>LZCHiEUEAN9eiWS1z4AXGg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\nistdtrans0012.mst</name><MD5>7wERxoG0207stl216O/tmA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\nistdtrans0017.mst</name><MD5>hzrNhKs5TFxi/VGqiWh5qA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\nistdtrans0018.mst</name><MD5>As7lRK831iTSvjf5XlzKVw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\nistdtrans2052.mst</name><MD5>aPY47Z/jq9ZGZYOqE3GLOA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\nistdtransbase.mst</name><MD5>sohN+2MReNLnuG5YQuJ7Pg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\notify.dll</name><MD5>4vr9Lt7uE5d4fRi28p8tKA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\notifyupdates.dll</name><MD5>x1lYb34gqrtfd3Sm3OKbvQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\updateInfo.xml</name><MD5>azXQQcC7mGG+YHxj357VOw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Bin\WindowsInstaller-KB893803-v2-x86.exe</name><MD5>NC95M3dldgrU45LrZ9XtLA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\Apache 2.0 License - English.pdf</name><MD5>7e4RClOSXb1hx4DMiW/u+Q==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\GNU Lesser General Public License - English.rtf</name><MD5>W4dkNM8PAMILJK1ufLvyzA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\LabVIEW FPGA Xilinx Spartan-3E License - English.rtf</name><MD5>C2vKodv9Qc+Ap/aMXlMppw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - English.rtf</name><MD5>cYiY3Gmt+8yNTLMF7ZgTHg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - French.rtf</name><MD5>+oWjMjatwghmkr8HyCLJ5w==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - German.rtf</name><MD5>+a051dfRJrj2PZCtUgsAww==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - Italian.rtf</name><MD5>PnlJ1nkXuRqQj/w1ZESUIA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - Japanese.rtf</name><MD5>toQHedD/qhi5Qjy6usqkag==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - Korean.rtf</name><MD5>Ui69ichgSnZpKmKwpRPL2Q==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - Simplified Chinese.rtf</name><MD5>4uPPyCBkE/Oua2i7zDlIRw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\NI Released License Agreement - Spanish.rtf</name><MD5>zriQ+tGSaKUVzCS2efymPQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\UPX 1.0 license - English.pdf</name><MD5>nY6hy9jKJMfaLDuekXMlVA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\wxWindows 3.1 License - English.pdf</name><MD5>5D54HNiQLmfAFPTvJwY1Ww==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\Xilinx ISE 10.1 Unified Third Party - English.rtf</name><MD5>PQQVQtDpOJPZZm4ba1Ljog==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Licenses\Xilinx ISE License - LabVIEW FPGA - English.rtf</name><MD5>K3CoGlAuJrDewxhR4A4GBQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MDF\MDF\EULADepo.cab</name><MD5>WOjvU/SBZl/PJJOwX69U+A==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MDF\MDF\EULADepot.msi</name><MD5>MfvJBAlAX7ecKZJyHECn8w==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MDF\MDF\MDFSupport.msi</name><MD5>UO3OQ2sBvC8RufqS0calwQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MDF\MDF\MDFSupport1.cab</name><MD5>862z/SEGL0ueWcYbLmn3cw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MDF\MDF\MDFSupport_mft.cab</name><MD5>Ynu9H/vlUVrp45mONSm0wg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MDF\MDF\NIYouLAs.bin</name><MD5>QJtGm96WKPQF69Cx1zlGdA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MetaUninstaller\MU\MetaUninstaller.msi</name><MD5>AUPSxP28UwqlSVfw8x1N/Q==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MetaUninstaller\MU\MetaUninstallerR1.cab</name><MD5>sMmBzple77QVetN4UV5QmQ==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\MetaUninstaller\MU\MetaUninstaller_mft.cab</name><MD5>i5RS5eAlWUHT/eIjmdtYLg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILaunch.cab</name><MD5>EepL+jaAh9sL4HCiq5xgAw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILauncher.msi</name><MD5>iy91lyaj8AqBCbbBTRncnw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILauncher_chs.mst</name><MD5>WrmclsaFYK4hRSp6UTsGPA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILauncher_deu.mst</name><MD5>U+2LBgAjdsVdQScbjOb2bA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILauncher_jpn.mst</name><MD5>QBYBY50igmYyhwBjhC/+Jw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILauncher_kor.mst</name><MD5>V6xEzh2Cl0rzOvKoTL6CBg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NILauncher\NILauncher_mft.cab</name><MD5>fapUpoLsuwZR873+dYQZQA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NI_FPGA_SP3E_2012\fpga_00\fpga_00.cab</name><MD5>MtxdtXNrbC+TD/9NeVU1uA==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NI_FPGA_SP3E_2012\fpga_00\LVFPGA_SP3E.msi</name><MD5>ejiCQdgvLv314IelXDlSFw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NI_FPGA_SP3E_2012\fpga_00\LVFPGA_SP3E_mft.cab</name><MD5>ky6bYo/zcl6UYwK1S3Gl4Q==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NI_FPGA_SP3E_DEFB_2012\fpga_00\fpga_00.cab</name><MD5>5E7Lxv70XQN0izNQeEVNzg==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NI_FPGA_SP3E_DEFB_2012\fpga_00\LVFPGA_SP3E_DEFB.msi</name><MD5>GZffjYI+6j9iSY0vtgqrRw==</MD5></FILE_ENTRY>
+<FILE_ENTRY><name>Products\NI_FPGA_SP3E_DEFB_2012\fpga_00\LVFPGA_SP3E_DEFB_mft.cab</name><MD5>6PNn8Ebcqtc1ckrOTtnkJw==</MD5></FILE_ENTRY>
+</FCIV>

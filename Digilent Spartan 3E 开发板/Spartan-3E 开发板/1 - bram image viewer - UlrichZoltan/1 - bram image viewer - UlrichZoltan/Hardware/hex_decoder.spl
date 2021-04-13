@@ -1,0 +1,8 @@
+[Inputs]
+clk
+=datain1[7:0]=
+=datain2[7:0]=
+[Outputs]
+=display_sseg[7:0]=
+=anodes[3:0]=
+[BiDir]

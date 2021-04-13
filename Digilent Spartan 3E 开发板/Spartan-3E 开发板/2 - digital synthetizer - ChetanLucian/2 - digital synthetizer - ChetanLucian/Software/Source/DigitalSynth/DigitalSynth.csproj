@@ -1,0 +1,252 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A53DA07D-6B4A-4218-B098-F8ECE7615301}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigitalSynth</RootNamespace>
+    <AssemblyName>DigitalSynth</AssemblyName>
+    <ApplicationIcon>dsIcon.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>D9099F0BAC24C4CE20A7FC582EFF61B486508D31</ManifestCertificateThumbprint>
+    <ManifestKeyFile>FPGA_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationForm.Designer.cs">
+      <DependentUpon>ApplicationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AudioConsoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AudioConsoleForm.Designer.cs">
+      <DependentUpon>AudioConsoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONVERTER.cs" />
+    <Compile Include="DelayEffectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelayEffectForm.Designer.cs">
+      <DependentUpon>DelayEffectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayElements.cs" />
+    <Compile Include="DPCUTIL.cs" />
+    <Compile Include="EchoEffectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EchoEffectForm.Designer.cs">
+      <DependentUpon>EchoEffectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlangeEffectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlangeEffectForm.Designer.cs">
+      <DependentUpon>FlangeEffectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MeasureBar.cs" />
+    <Compile Include="MidiDecoder.cs" />
+    <Compile Include="MidiEncoder.cs" />
+    <Compile Include="MidiInterpreter.cs" />
+    <Compile Include="IDrawingElement.cs" />
+    <Compile Include="NewFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFileForm.Designer.cs">
+      <DependentUpon>NewFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Note.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="UsbCommunicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsbCommunicationForm.Designer.cs">
+      <DependentUpon>UsbCommunicationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayBar.cs" />
+    <Compile Include="PlayMidi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ApplicationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AudioConsoleForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AudioConsoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelayEffectForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DelayEffectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EchoEffectForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EchoEffectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlangeEffectForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FlangeEffectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFileForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsbCommunicationForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UsbCommunicationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReverbEffectForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReverbEffectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VibratoEffectForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>VibratoEffectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RecordMidi.cs" />
+    <Compile Include="Rest.cs" />
+    <Compile Include="ReverbEffectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReverbEffectForm.Designer.cs">
+      <DependentUpon>ReverbEffectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.cs" />
+    <Compile Include="VibratoEffectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VibratoEffectForm.Designer.cs">
+      <DependentUpon>VibratoEffectForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\redraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dsIcon.ico" />
+    <None Include="Resources\about.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+[Inputs]
+clk
+rst
+resolution
+switch
+[Outputs]
+setx
+sety
+setmax_x
+setmax_y
+=value[9:0]=
+[BiDir]

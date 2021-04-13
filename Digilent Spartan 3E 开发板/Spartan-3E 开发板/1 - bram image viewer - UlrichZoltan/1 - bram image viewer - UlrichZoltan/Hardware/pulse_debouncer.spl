@@ -1,0 +1,6 @@
+[Inputs]
+a
+clk
+[Outputs]
+b
+[BiDir]

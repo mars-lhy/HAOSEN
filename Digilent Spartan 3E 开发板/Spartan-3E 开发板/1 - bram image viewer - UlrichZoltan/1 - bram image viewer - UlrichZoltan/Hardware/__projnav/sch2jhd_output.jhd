@@ -1,0 +1,7 @@
+MODULE vga_module
+	SUBMODULE vga_controller_640_60
+		INSTANCE iVGA_640_60
+	SUBMODULE vga_selector
+		INSTANCE iVGA_SELECTOR
+	SUBMODULE vga_controller_800_60
+		INSTANCE iVGA_800_60
